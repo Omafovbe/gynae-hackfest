@@ -28,7 +28,7 @@ export default function Footer () {
               <div className="mt-">
                 <Link to="/" className="flex items-center space-x-3">
                   <img src={logo} alt="logo" className="w-12 lg:w-20 object-fit" />
-                  <span className="text-primary-900 font-poppins font-semibold text-lg">Zinny Eyecare</span>
+                  <span className="text-primary-900 font-poppins font-semibold text-lg">Gynae App</span>
                 </Link>
                 <p className="text-gray-600 py-5">Struggles to get to the clinic? Trying to reduce your exposure to COVID-19, as well as other contagious illnesses, and still need to see your doctor? Zinny Eyecare is safe and easy — receive quality care from anywhere.</p>
                 <p className=" pb-2 text-gray-600">Phone (appointments): <strong>+2340813-5570-186</strong></p>
@@ -36,7 +36,7 @@ export default function Footer () {
               </div>
             </div>
             {/*  */ }
-            <div className="sm:col-span-1">
+            <div className="sm:col-span-1 ml-4">
               <div>
                 <h3 className="font-bold text-lg mb-7 text-primary-900">About</h3>
                 <ul className="flex flex-col space-y-2">
@@ -66,51 +66,19 @@ export default function Footer () {
                     </Link>
                   </li>
                   <li>
-                    <Link to="about-us" className="text-gray-800 hover:text-primary-900">
+                    <Link to="sign-up" className="text-gray-800 hover:text-primary-900">
                       Sign up
                     </Link>
                   </li>
                   <li>
-                    <Link to="about-us" className="text-gray-800 hover:text-primary-900">
+                    <Link to="login" className="text-gray-800 hover:text-primary-900">
                       Sign in
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
-            {/*  */ }
-            <div className="sm:col-span-1">
-              <div>
-                <h3 className="font-bold text-lg mb-7 text-primary-900">Treatment</h3>
-                <ul className="flex flex-col space-y-2">
-                  <li>
-                    <Link to="about-us" className="text-gray-800 hover:text-primary-900">
-                      Retina
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="about-us" className="text-gray-800 hover:text-primary-900">
-                      Cataract
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="about-us" className="text-gray-800 hover:text-primary-900">
-                      LASIK
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="about-us" className="text-gray-800 hover:text-primary-900">
-                      Glaucoma
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="about-us" className="text-gray-800 hover:text-primary-900">
-                      Oculoplasty
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            
             {/*  */ }
             <div className="sm:col-span-2">
               <div>
@@ -154,7 +122,7 @@ export default function Footer () {
           {/*  */ }
           <div className="mt-10 border-t-2">
             <div className="pt-8 pb-5 mx-auto max-w-3xl">
-              <p className="font-medium text-center">&copy; Copyright { new Date().getFullYear() } Zinny Eyecare, Inc. All rights reserved.</p>
+              <p className="font-medium text-center">&copy; Copyright { new Date().getFullYear() } Gynae App, Inc. All rights reserved.</p>
               <p className="pt-3 text-sm text-center">Use of this website and any information contained herein is governed by <a href="https://" className="text-primary-900 underline hover:no-underline pr-2">MIT law.</a>The content on Zinny Eyecare does not provide medical advice. Always consult a medical provider for diagnosis and treatment.</p>
               {/* Socials */}
               <ul className="py-6 flex items-center justify-center flex-wrap space-x-6 divide">

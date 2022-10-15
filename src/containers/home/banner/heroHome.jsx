@@ -23,8 +23,10 @@ const HeroHome = () => {
                 <p>-Gynaecologist</p>
                 <SingleDoc />
               </div>
-              <h1 className="h1 leading-loose font-extrabold font-poppins text-3xl lg:text-4xl xl:text-5xl" style={{lineHeight: 1.5}}>Take Care of Your <br /> <span className="text-primary-900 ">Eye</span> Health Here</h1>
-                <p className="text-gray-700 leading-9 text-base sm:text-lg font-medium">The eye is one of the most used senses among the other five <br className="hidden lg:block" />  senses. The sense of sight is the primary mean of gathering visual information around us. </p>
+              <h1 className="h1 leading-loose font-extrabold font-poppins text-3xl lg:text-4xl xl:text-5xl" style={{lineHeight: 1.5}}>Take Care of Your <br /> <span className="text-primary-900 ">Baby as well as your</span> Health Here</h1>
+                <p className="text-gray-700 leading-9 text-base sm:text-lg font-medium">
+                Be among Avail yourself the benefit from specialist care of various Gynaecological conditions from our Consultant Gynaecologist
+                </p>
             </div>
             <div className="mt-10 flex flex-col sm:flex-row items-center space-y-5 sm:space-y-0 space-x-8">
               <ButtonPrimary type="button" padding="px-6 py-3">
@@ -32,7 +34,7 @@ const HeroHome = () => {
                 <FontAwesomeIcon icon={faWheelchair} className="ml-3" />
               </ButtonPrimary>
               <ButtonTrans type="button" padding="px-6 py-3">
-                Sur. Registration
+                Registration
                 <FontAwesomeIcon icon={faIdBadge} className="ml-3" />
               </ButtonTrans>
             </div>
@@ -42,7 +44,7 @@ const HeroHome = () => {
             <img src={hero} alt="hero" className="z-0 w-96" />
           </div>
         </div>
-        <ConsultForm />
+        {/* <ConsultForm /> */}
       </div>
     </section>
   );

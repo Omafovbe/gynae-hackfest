@@ -86,25 +86,25 @@ function Header () {
                 </NavLink>
                 </li>
                 {/* About */}
-              <li>
+              {/* <li>
                 <NavLink
                   to="/about-us"
                   activeClassName="text-primary-900" className="text-grayish-900 font-semibold hover:text-primary-900"
                   >
                     About us 
                 </NavLink>
-              </li>
+              </li> */}
               {/* Doctor */ }
-              <li>
+              {/* <li>
                 <NavLink
                   to="/doctors"
                   activeClassName="text-primary-900" className="text-grayish-900 font-semibold hover:text-primary-900"
                   >
                     Doctors 
                 </NavLink>
-              </li>
+              </li> */}
               {/* Actions & costs */}
-              <Dropdown title="Actions &amp; Costs">
+              {/* <Dropdown title="Actions &amp; Costs">
                 <li className="px-5 pb-3 pt-2">
                   <NavLink
                   to="/actions"
@@ -145,9 +145,9 @@ function Header () {
                     Oculoplasty 
                   </NavLink>
                 </li>
-              </Dropdown>
+            </Dropdown> */}
                 {/* Service */ }
-              <Dropdown title="Services">
+              {/*<Dropdown title="Services">
                 <li className="px-5 pb-3 pt-2">
                   <NavLink
                   to="/actions"
@@ -172,7 +172,7 @@ function Header () {
                     Lasik 
                   </NavLink>
                 </li>
-              </Dropdown>
+              </Dropdown> */}
                 
               {/* <Dropdown title="Doctors">
                 <li className="px-5 pb-3 pt-2">
@@ -204,7 +204,7 @@ function Header () {
               {/* Help */}
               <li>
                 <NavLink
-                  to="/help"
+                  to="#"
                   activeClassName="text-primary-900" className="text-grayish-900 font-semibold hover:text-primary-900"
                   >
                     Help 
@@ -263,25 +263,25 @@ function Header () {
             </NavLink>
           </li>
           {/* About */}
-          <li className="pt-4">
+          {/* <li className="pt-4">
             <NavLink
               to="/about-us"
               activeClassName="text-primary-900" className="text-grayish-900 font-semibold hover:text-primary-900"
               >
                 About us 
             </NavLink>
-          </li>
+          </li> */}
           {/* Doctor */}
-          <li className="pt-4">
+          {/* <li className="pt-4">
             <NavLink
               to="/doctors"
               activeClassName="text-primary-900" className="text-grayish-900 font-semibold hover:text-primary-900"
               >
                 Doctors 
             </NavLink>
-          </li>
+          </li> */}
           {/* Actions & cost */}
-          <li>
+          {/* <li>
             <span className="text-grayish-900 font-semibold hover:text-primary-900 flex items-center justify-between focus:outline-none cursor-pointer" onClick={handleAction}
               >
                 Actions &amp; Costs
@@ -314,9 +314,9 @@ function Header () {
                 </li>
 
               </ul>
-            </li>
+            </li> */}
               {/* Services */}
-            <li className="pt-4">
+            {/* <li className="pt-4">
               <span className="text-grayish-900 font-semibold hover:text-primary-900 flex items-center justify-between focus:outline-none cursor-pointer" onClick={()=>setService(!service)}
                 >
                   Services
@@ -348,7 +348,7 @@ function Header () {
                   </NavLink>
                 </li>
               </ul>
-            </li>
+            </li> */}
             {/* Doctor */}
           {/* <li className="pt-4">
             <span className="text-grayish-900 font-semibold hover:text-primary-900 flex items-center justify-between focus:outline-none cursor-pointer" onClick={()=>setDoctor(!doctor)}
@@ -387,7 +387,7 @@ function Header () {
             {/* Help */}
             <li className="pt-4">
               <NavLink
-                to="/help"
+                to="#"
                 activeClassName="text-primary-900" className="text-grayish-900 font-semibold hover:text-primary-900"
                 >
                   Help 

@@ -14,9 +14,9 @@ function App() {
       <Route exact path={`${process.env.PUBLIC_URL}/`}>
         <LandingPage />
       </Route>
-      <Route path="/about-us">
+      {/* <Route path="/about-us">
         <AboutUs />
-      </Route>
+      </Route> */}
       <Route path="/login">
         <LoginPage />
       </Route>

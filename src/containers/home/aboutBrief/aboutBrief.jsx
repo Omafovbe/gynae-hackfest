@@ -18,6 +18,7 @@ const AboutBrief = () => {
         <Title heading="-Education" noted="Quality" title="Well woman Care">
           <p className="font-medium text-gray-600 text-center mt-5 leading-8">
           We take our time to thoroughly diagnose the problem before recommending a treatment option to patients. Our passion is to help women achieve the best possible health so that they can lead happy, healthy and fulfilled lives.
+          We provide regular gynaecological exams and a range of screenings, such as contraceptive coil fitting, colposcopy, smears test. We also offer HPV vaccine and ultrasound pregnancy scans. Our consultant gynecologists are always there to fulfill all your gynaecological needs.
           </p>
         </Title>
 

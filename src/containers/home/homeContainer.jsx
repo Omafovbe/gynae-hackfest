@@ -10,7 +10,7 @@ function HomeContainer (){
     <main className="min-h-screen">
       <HeroHome />
       <AboutBrief />
-      <ServiceBrief />
+      {/* <ServiceBrief /> */}
       <DoctorsBrief />
     </main>
   )

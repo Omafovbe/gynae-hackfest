@@ -6,7 +6,7 @@ export default function LoginPage() {
         <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0 bg-gray-50">
             <div className="w-2/3 p-6 m-auto bg-white rounded-md shadow-xl shadow-rose-600/40  lg:max-w-xl">
                 <h1 className="text-3xl font-semibold text-center text-purple-700 uppercase">
-                   Sign in
+                   Log in
                 </h1>
                 <form className="mt-6">
                     <div className="mb-2">
