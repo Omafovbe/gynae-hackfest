@@ -15,11 +15,13 @@ const AboutBrief = () => {
     <section className="relative">
       <img src={circles} alt="" className="bg-opacity-50 opacity-50 absolute right-0 object-fit lg:block hidden" />
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-16 xl:mt-12">
-        <Title heading="-Education" noted="About" title="Eye disease &amp; Surgery">
-          <p className="font-medium text-gray-600 text-center mt-5 leading-8">Eye disease is a health disorder that is quite common in the community. Complaints can be in the form of red eyes, itching, burning, visual disturbances, to blindness. Of the many eye diseases, there are some common eye diseases in Nigeria.</p>
+        <Title heading="-Education" noted="Quality" title="Well woman Care">
+          <p className="font-medium text-gray-600 text-center mt-5 leading-8">
+          We take our time to thoroughly diagnose the problem before recommending a treatment option to patients. Our passion is to help women achieve the best possible health so that they can lead happy, healthy and fulfilled lives.
+          </p>
         </Title>
 
-        <div className="pt-8"> 
+        {/* <div className="pt-8"> 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-4 gap-y-4 h-full">
             {
               eyeDiseases.map((disease) => {
@@ -44,7 +46,7 @@ const AboutBrief = () => {
               })
             }
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

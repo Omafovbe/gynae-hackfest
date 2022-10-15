@@ -5,7 +5,7 @@ import { faWheelchair } from '@fortawesome/free-solid-svg-icons';
 import { faIdBadge } from '@fortawesome/free-solid-svg-icons';
 
 import bgImage from '../../../images/hero-bg.png';
-import hero from '../../../images/hero-img.png';
+import hero from '../../../images/expectant.png';
 import ConsultForm from '../appointment/consult-form';
 import { ButtonPrimary, ButtonTrans } from '../../../components/button/button';
 import { SingleDoc } from '../../../components/svg/svg';
@@ -20,7 +20,7 @@ const HeroHome = () => {
           <div className="lg:col-span-1">
             <div className="flex flex-col space-y-6 pt-8">
               <div className="text-primary-900 text-lg lg:text-xl font-semibold mt-20 flex items-center">
-                <p>-Optometrist and Ophthamologists</p>
+                <p>-Gynaecologist</p>
                 <SingleDoc />
               </div>
               <h1 className="h1 leading-loose font-extrabold font-poppins text-3xl lg:text-4xl xl:text-5xl" style={{lineHeight: 1.5}}>Take Care of Your <br /> <span className="text-primary-900 ">Eye</span> Health Here</h1>
@@ -39,7 +39,7 @@ const HeroHome = () => {
           </div>
 
           <div className="lg:col-span-1 lg:pt-20 z-0">
-            <img src={hero} alt="hero" className="z-0" />
+            <img src={hero} alt="hero" className="z-0 w-96" />
           </div>
         </div>
         <ConsultForm />
